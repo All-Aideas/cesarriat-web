@@ -1,0 +1,17 @@
+# Archivos privados / no para el repo
+CLAUDE.md
+Profile.pdf
+Notas en Medios.xlsx
+.claude/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Firebase
+.firebase/
+.firebaserc.local
+
+# OS
+.DS_Store
+Thumbs.db
