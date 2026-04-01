@@ -1658,6 +1658,7 @@ footer {
   .hero-visual { order: -1; }
   .hero-photo-wrap { width: 200px; height: 200px; }
   .hero-photo-placeholder { width: 200px; height: 200px; }
+  .hero-photo { width: 200px; height: 200px; }
   .float-tag { display: none; }
   .hero-ctas { justify-content: center; }
   .hero-media-logos { justify-content: center; }
