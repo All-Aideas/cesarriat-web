@@ -721,8 +721,8 @@ body::before {
 }
 
 .award-card:hover::before { transform: scaleX(1); }
-.award-hidden { display: none; }
-.award-hidden.visible { display: flex; }
+.award-hidden { display: none !important; }
+.award-hidden.expanded { display: flex !important; }
 
 .award-icon {
   font-size: 1.5rem;

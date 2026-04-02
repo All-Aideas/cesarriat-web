@@ -177,9 +177,9 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 // ── TOGGLE PREMIOS ──
 function togglePremios(btn) {
   const hidden = document.querySelectorAll('.award-hidden');
-  const expanded = hidden[0] && hidden[0].classList.contains('visible');
-  hidden.forEach(el => el.classList.toggle('visible', !expanded));
-  btn.textContent = expanded
+  const isExpanded = hidden[0] && hidden[0].classList.contains('expanded');
+  hidden.forEach(el => el.classList.toggle('expanded', !isExpanded));
+  btn.textContent = isExpanded
     ? 'Ver los +25 reconocimientos completos →'
     : '← Ocultar reconocimientos';
 }
