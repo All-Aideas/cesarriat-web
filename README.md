@@ -85,6 +85,12 @@ firebase login
 
 # Deploy
 firebase deploy
+
+> ⚠️ **Nota:** Firebase desloguea la sesión después de ~24hs.
+> Si el deploy falla con error de autenticación, corré:
+> ```bash
+> firebase login --reauth
+> ```
 ```
 
 La web queda disponible en:

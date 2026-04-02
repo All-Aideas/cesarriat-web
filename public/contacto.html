@@ -88,90 +88,33 @@
 
 <section class="section">
   <div class="section-inner">
-    <div class="contact-grid">
+    <div style="max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:1.5rem;">
 
-      <!-- FORMULARIO 1: PERIODISTAS -->
-      <div class="contact-form-card fade-in" id="prensa">
-        <p class="form-title">Para Periodistas / Medios</p>
-        <p class="form-subtitle">¿Querés entrevistarme para una nota, podcast o programa?</p>
-        <form action="https://formsubmit.co/criat@allaideas.com" method="POST">
-          <input type="hidden" name="_subject" value="🎙️ Solicitud de entrevista — cesarriat.com">
-          <input type="hidden" name="_next" value="https://cesarriat.com/contacto.html?enviado=1">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="tipo" value="Periodista / Medio">
-          <div class="form-group">
-            <label for="nombre-prensa">Nombre *</label>
-            <input type="text" id="nombre-prensa" name="nombre" required placeholder="Tu nombre">
-          </div>
-          <div class="form-group">
-            <label for="medio">Medio / Publicación *</label>
-            <input type="text" id="medio" name="medio" required placeholder="Infobae, La Nacion, podcast...">
-          </div>
-          <div class="form-group">
-            <label for="email-prensa">Email *</label>
-            <input type="email" id="email-prensa" name="email" required placeholder="tu@email.com">
-          </div>
-          <div class="form-group">
-            <label for="tipo-cobertura">Tipo de cobertura</label>
-            <select id="tipo-cobertura" name="tipo_cobertura">
-              <option value="">Seleccioná el formato</option>
-              <option value="nota-escrita">Nota escrita</option>
-              <option value="radio">Radio</option>
-              <option value="tv">TV</option>
-              <option value="podcast">Podcast</option>
-              <option value="otro">Otro</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="mensaje-prensa">Tema de la nota / mensaje *</label>
-            <textarea id="mensaje-prensa" name="mensaje" required placeholder="Contame brevemente sobre qué querés hablar..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;">Enviar solicitud de entrevista →</button>
-        </form>
+      <!-- CARD CALENDAR -->
+      <div class="contact-form-card fade-in" style="text-align:center;padding:3rem 2rem;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">📅</div>
+        <p class="form-title" style="font-size:1.3rem;margin-bottom:0.5rem;">Agendá una reunión</p>
+        <p class="form-subtitle" style="margin-bottom:2rem;">Seleccioná el día y horario que mejor te quede. La reunión se confirma automáticamente en tu calendario.</p>
+        <a href="https://calendar.app.google/BB9xjLoJp6abAADk8"
+           target="_blank" rel="noopener"
+           class="btn btn-primary"
+           style="font-size:1rem;padding:0.9rem 2.5rem;">
+          Reservar turno en Google Calendar →
+        </a>
       </div>
 
-      <!-- FORMULARIO 2: EVENTOS -->
-      <div class="contact-form-card fade-in fade-in-delay-1" id="eventos">
-        <p class="form-title">Para Eventos / Conferencias</p>
-        <p class="form-subtitle">¿Querés que sea speaker en tu evento de IA?</p>
-        <form action="https://formsubmit.co/criat@allaideas.com" method="POST">
-          <input type="hidden" name="_subject" value="🎤 Solicitud de speaker — cesarriat.com">
-          <input type="hidden" name="_next" value="https://cesarriat.com/contacto.html?enviado=1">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="tipo" value="Evento / Conferencia">
-          <div class="form-group">
-            <label for="nombre-evento">Nombre *</label>
-            <input type="text" id="nombre-evento" name="nombre" required placeholder="Tu nombre">
-          </div>
-          <div class="form-group">
-            <label for="empresa">Empresa / Organización *</label>
-            <input type="text" id="empresa" name="empresa" required placeholder="Nombre de tu empresa u organización">
-          </div>
-          <div class="form-group">
-            <label for="email-evento">Email *</label>
-            <input type="email" id="email-evento" name="email" required placeholder="tu@empresa.com">
-          </div>
-          <div class="form-group">
-            <label for="fecha-evento">Fecha del evento (aproximada)</label>
-            <input type="text" id="fecha-evento" name="fecha" placeholder="Ej: Agosto 2026">
-          </div>
-          <div class="form-group">
-            <label for="tema">Tema deseado</label>
-            <input type="text" id="tema" name="tema" placeholder="Ej: IA en retail, agentes de IA...">
-          </div>
-          <div class="form-group">
-            <label for="asistentes">Cantidad de asistentes estimada</label>
-            <select id="asistentes" name="asistentes">
-              <option value="">Seleccioná el rango</option>
-              <option value="hasta-50">Hasta 50</option>
-              <option value="50-200">50 – 200</option>
-              <option value="200-500">200 – 500</option>
-              <option value="500-1000">500 – 1.000</option>
-              <option value="mas-1000">Más de 1.000</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;">Solicitar disponibilidad →</button>
-        </form>
+      <!-- CARD WHATSAPP -->
+      <div class="contact-form-card fade-in fade-in-delay-1" style="text-align:center;padding:3rem 2rem;">
+        <div style="font-size:2.5rem;margin-bottom:1rem;">💬</div>
+        <p class="form-title" style="font-size:1.3rem;margin-bottom:0.5rem;">Escribime por WhatsApp</p>
+        <p class="form-subtitle" style="margin-bottom:2rem;">Preferís mandar un mensaje directo? Hablemos por WhatsApp.</p>
+        <a href="https://wa.me/5491133091809?text=Hola%20César,%20te%20contacto%20desde%20cesarriat.com"
+           target="_blank" rel="noopener"
+           class="btn btn-primary"
+           style="font-size:1rem;padding:0.9rem 2.5rem;background:#25D366;border-color:#25D366;">
+          Escribir por WhatsApp →
+        </a>
+        <p style="margin-top:1rem;font-size:0.85rem;color:var(--text-dim);">+54 9 11 3309-1809</p>
       </div>
 
     </div>
