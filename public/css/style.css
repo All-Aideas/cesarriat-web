@@ -1179,9 +1179,18 @@ body::before {
 /* ── SOCIAL PROOF / TWEETS ── */
 .tweets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
+  align-items: start;
+}
+.tweet-embed-wrap {
+  display: flex;
+  justify-content: center;
+}
+.tweet-embed-wrap .twitter-tweet {
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 .tweet-slot {
