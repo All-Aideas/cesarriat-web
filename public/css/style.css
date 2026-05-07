@@ -1812,30 +1812,32 @@ footer {
 }
 
 .cert-logo {
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
   border-radius: 10px;
+  background: #fff;
+  border: 1px solid var(--border-light);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.8rem;
   flex-shrink: 0;
-  letter-spacing: 0.02em;
-  color: #fff;
+  overflow: hidden;
+  padding: 6px;
 }
-.cert-logo.google     { background: #4285F4; }
-.cert-logo.anthropic  { background: #D97757; }
-.cert-logo.intel      { background: #0071C5; }
-.cert-logo.platzi     { background: #98CA3F; color: #111; }
-.cert-logo.coursera   { background: #0056D2; }
-.cert-logo.microsoft  { background: #00A4EF; }
-.cert-logo.edv        { background: #E84949; }
-.cert-logo.ylai       { background: #9C27B0; }
-.cert-logo.unimooc    { background: #FF6F00; }
-.cert-logo.uns        { background: #1565C0; }
-.cert-logo.uner       { background: #2E7D32; }
-.cert-logo.gactivate  { background: #34A853; }
+.cert-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* Fallback cuando no carga la imagen */
+.cert-logo.fallback {
+  background: var(--bg-mid);
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-color: var(--border);
+  padding: 0;
+}
 
 .cert-body { flex: 1; min-width: 0; }
 .cert-issuer {
