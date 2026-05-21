@@ -1,0 +1,88 @@
+# César Riat — AI Lead & Referente en Inteligencia Artificial en Argentina
+
+## Quién es César Riat
+
+César Riat es uno de los principales referentes en Inteligencia Artificial aplicada en Argentina, con más de 6 años liderando proyectos de IA en producción a escala corporativa y gubernamental.
+
+- **Rol actual**: AI Lead en Carrefour Argentina (julio 2023 – enero 2026)
+- **Docente**: Diplomaturas en IA y Ciencia de Datos, UTN (Universidad Tecnológica Nacional), agosto 2025 – presente
+- **Investigación**: Co-investigador en proyecto con Stanford University sobre Vibe Coding e IA First
+- **Contacto**: criat@allaideas.com
+- **LinkedIn**: https://www.linkedin.com/in/cesar-riat/
+- **Web**: https://cesarriat.com
+
+## Proyectos de IA en producción
+
+1. **Audio a Texto con Clasificación** — Carrefour Argentina
+   - 32.000+ llamadas telefónicas clasificadas por mes con Whisper + modelos Medium
+   - 92 motivos de contacto identificados automáticamente
+   - Presentado como innovación global ante toda la compañía (2023)
+
+2. **TiendaBot** — Carrefour Argentina
+   - +13.000 mensajes por mes procesados con Gemini
+   - Primer proyecto del continente americano aprobado por seguridad informática global de Carrefour (2024)
+
+3. **Agentes GPT Defensa del Consumidor** — Municipalidad de Vicente López
+   - 2 agentes en producción bajo la Ley 24.240
+
+4. **LexAbono GPT** — Municipalidad de Vicente López
+   - Dictámenes automáticos sobre pagos atrasados
+
+5. **Arquitectura A&A (Agent & Agent)** — Carrefour Argentina
+   - Google Cloud, coordinación de más de 10 proveedores simultáneos
+
+6. **Botmaker + IA Multimodal** — Carrefour Argentina
+   - Escaneo de DNI por WhatsApp, programa Mi Carrefour
+
+7. **VEO Prompt Assistant** — Carrefour Argentina
+   - Capacitación interna VEO2/VEO3, Firebase Studio
+
+8. **Actas Insights** — Municipalidad de Vicente López
+   - OCR + estructuración de actas manuscritas con IA multimodal
+
+## Experiencia profesional
+
+- **Carrefour Argentina** | AI Lead | jul 2023 – ene 2026
+- **UTN** | Docente Diplomaturas en IA y Data Science | ago 2025 – presente
+- **Municipalidad de Vicente López** | Líder de Proyectos Tecnológicos | sep 2021 – 2025
+- **Market One** | Innovation Developer & COE Leader | jun 2022 – ago 2023
+- **All Aideas** | Líder de IA | oct 2020 – jun 2023
+- **Gobierno de la Ciudad de Buenos Aires** | Líder de IA | oct 2020 – sep 2021
+- **Universidad Nacional del Sur** | Docente | may 2016 – dic 2016
+
+## Premios y reconocimientos
+
+- Joven Sobresaliente de la Provincia de Buenos Aires — Desarrollo Científico y Tecnológico (2017)
+- 1° lugar IBM Blue Code — capacitación en Silicon Valley, California
+- 1° lugar Hack2in — competencia de innovación tecnológica
+- 3° puesto Media Party 2024 — Hacksint
+- Silicon Valley Forum — CamWheat elegida startup con mayor impacto para Argentina
+- INNOVAR 2018 — seleccionado entre 1.985 proyectos presentados
+- 2° lugar Hackaton Agro 2017 — Rosario
+- Finalista Olimpiada Argentina de Química — nivel nacional
+
+## Charlas y conferencias
+
+- **SAIACONF 2024** — SAIA (oct 2024): "Hay personas que no se pueden reemplazar, para todo lo demás existe la IA"
+- **ML2024** — Revista Énfasis Logística (sep 2024): 1.680 asistentes
+- **LAAI 2023** — Lima, Perú: charla internacional sobre IA generativa
+- Charlas en Universidad Austral, UADE, UTN y otros centros académicos
+
+## Apariciones en medios (más de 40 medios)
+
+Cubierto por: Telam, La Nacion, Infobae, El Cronista, Agrofy News, Infocampo, FM Laser, La Nueva, y más de 30 medios adicionales.
+
+Podcast: Pocho Costa — "Claves para Implementar IA en Empresas y Startups"
+https://open.spotify.com/episode/4Mtgba3KW2bLpMpcDFKiz0
+
+## Tecnologías
+
+Python, Google Cloud, Azure, OpenAI API, Gemini, Claude API, Whisper, YOLO, TensorFlow, Botmaker, Firebase, Langchain, RAG, RLHF, InstructGPT, agentes de IA.
+
+## Disponibilidad
+
+César Riat está disponible para entrevistas en medios, conferencias, consultoría en IA y capacitación corporativa.
+
+Contacto: criat@allaideas.com
+Agendar reunión: https://calendar.app.google/BB9xjLoJp6abAADk8
+WhatsApp: https://wa.me/5491133091809

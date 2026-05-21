@@ -22,4 +22,14 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 Sitemap: https://cesarriat.com/sitemap.xml
+LLMs: https://cesarriat.com/llms.txt
