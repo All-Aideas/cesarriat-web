@@ -11,11 +11,12 @@
 cesarriat-web/
 │
 ├── public/                     ← Raíz pública (Firebase sirve desde aquí)
-│   ├── index.html              ← Página principal (hero, bio, premios, timeline, FAQ)
+│   ├── index.html              ← Página principal (hero, bio, premios, timeline, FAQ, certs preview)
 │   ├── medios.html             ← +45 notas de prensa filtrables por categoría
 │   ├── proyectos.html          ← 16 proyectos de IA Generativa en producción
-│   ├── charlas.html            ← +15 conferencias (SAIACONF, ML2024, Perú, etc.)
-│   ├── contacto.html           ← Formularios: periodistas + eventos/conferencias
+│   ├── charlas.html            ← +15 conferencias (SAIACONF, ML2024, Perú, LATAM, etc.)
+│   ├── contacto.html           ← Calendar booking + WhatsApp directo
+│   ├── certificaciones.html    ← 52+ certificaciones (Google Gen AI, Anthropic, Intel, Platzi, etc.)
 │   │
 │   ├── css/
 │   │   └── style.css           ← Estilos globales (paleta TensorFlow, Space Mono)
@@ -24,7 +25,7 @@ cesarriat-web/
 │   │   └── main.js             ← Animaciones, FAQ accordion, lazy video, filtros
 │   │
 │   ├── robots.txt              ← Permisivo para todos los bots (Google, GPT, Claude)
-│   └── sitemap.xml             ← Sitemap con las 5 URLs principales
+│   └── sitemap.xml             ← Sitemap con las 6 URLs principales
 │
 ├── firebase.json               ← Configuración Firebase Hosting (rewrites, cache)
 ├── .firebaserc                 ← Nombre del proyecto Firebase: cesarriat-web
@@ -125,11 +126,12 @@ firebase deploy
 
 | Página | Función |
 |--------|---------|
-| `index.html` | Hero con foto, bio, badge strip de medios, contadores animados, sección "Sobre mí", timeline profesional, premios/reconocimientos, proyectos destacados, FAQ con Schema.org, sección de tweets/social proof |
-| `medios.html` | Grid filtrable de +45 notas de prensa categorizadas (tecnología, agro, salud, premios, conferencias). Filtros por URL con `?categoria=` para SEO |
-| `proyectos.html` | 16 proyectos de IA Generativa en producción: Carrefour, GCBA, Municipalidad de Vicente López, freelance. Cards con métricas, tecnologías y estado |
-| `charlas.html` | +15 conferencias y eventos: SAIACONF 2024, ML2024 (1.680 asistentes), Perú, RCANZ, UNESCO, Media Party, Salud, etc. Con links a LinkedIn, videos y cobertura |
-| `contacto.html` | Dos formularios separados: periodistas/medios y organizadores de eventos. Email visible + WhatsApp |
+| `index.html` | Hero con foto, bio, badge strip de medios, contadores animados, sección "Sobre mí", timeline profesional, premios/reconocimientos, proyectos destacados, preview certificaciones, FAQ con Schema.org, social proof |
+| `medios.html` | Grid filtrable de +45 notas de prensa categorizadas (tecnología, agro, salud, premios, conferencias) |
+| `proyectos.html` | 16 proyectos de IA Generativa en producción: Carrefour, GCBA, Municipalidad de Vicente López, freelance |
+| `charlas.html` | +15 conferencias: SAIACONF 2024, ML2024 (1.680 asistentes), Perú, LATAM, con videos embebidos lazy |
+| `contacto.html` | Google Calendar booking + WhatsApp directo (sin formularios) |
+| `certificaciones.html` | 52+ certificaciones agrupadas: IA (Google Gen AI, Anthropic, Intel), Data Science, Dev, Skills & Negocios |
 
 ### SEO implementado:
 - Meta tags completos en todas las páginas
